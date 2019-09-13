@@ -32,5 +32,10 @@ echo $var1 + $var3;
 echo '<strong> Voici mon premier programme </strong><br/>' . "\n";
 echo 'C\'est  pas mal non ? <br/>';
 ?>
+
+<?php
+
+echo date('l F d, Y');
+?>
 </body>
 </html>
