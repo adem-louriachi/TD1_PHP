@@ -21,7 +21,68 @@
 
     <header> <!-- En-tête -->
 
+        <!DOCTYPE HTML>
+        <html lang=fr>
 
+        <head>
+            <!-- Balise Meta -->
+            <meta charset="UTF-8"/>
+            <meta name="author" content="Adem Louriachi" />
+            <meta name="description" content="Site pour le projet du 1er semestre DUT Informatique, professeur : Olivier Gérard"/>
+            <meta name="keywords" content="Adem, Adem_Swallow, projet, écriture, informatique, hirondelle, plume">
+            <title>La Plume de l'Hirondelle - Accueil</title>
+            <!-- Stylesheet -->
+            <link rel="stylesheet" href="csssite/index.css"/>
+            <!-- Favicon -->
+            <link rel="icon" type="image/png" sizes="32x32" href="imagessite/favicon-32x32.png">
+
+        </head>
+
+        <body>
+
+        <div id="accueil"> <!-- debut du div page -->
+
+            <header> <!-- En-tête -->
+
+            <?php
+            $var1 = 6;
+            $var2 = 1.3;
+            $var3 = 'Variable 3';
+            ?>
+
+            </header> <!-- Fin d'en-tête -->
+
+            <div class="corps">
+
+                <?php
+                echo '<strong> Voici mon premier programme PHP </strong><br/>'."/n";
+                echo 'C\'est pas mal non ? <br/>' ;
+                ?>
+
+
+                <div class="twitter">
+
+                    <a class="twitter-timeline" data-lang="fr" data-height="900" data-dnt="true" data-theme="dark" href="https://twitter.com/Adem_Swallow?ref_src=twsrc%5Etfw">Tweets by Adem_Swallow</a> <script async src="https://platform.twitter.com/widgets.js"></script>
+
+                </div>
+
+            </div>
+
+            <footer>
+
+                <a href="#accueil" class="button">Vous voulez remonter en haut de la page ?</a>
+
+                <blockquote>"Je suis un as qui pique, alors que toi ? Un pauvre valet qui restera sur le carreau." Adem Louriachi</blockquote>
+
+                <blockquote>Copyright (c) 2018 Tous droits réservés</blockquote>
+
+            </footer>
+
+        </div> <!-- Fin du div page -->
+
+        </body>
+
+        </html>
 
     </header> <!-- Fin d'en-tête -->
 
