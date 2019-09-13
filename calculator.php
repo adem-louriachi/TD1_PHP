@@ -9,6 +9,8 @@ function end_page($title) {}
 
 
 start_page('title');
+$operateurs = '*+-/';
+print_r($operateurs);
 ?>
 
 <h1>Testons les calculs !</h1>
