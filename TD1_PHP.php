@@ -24,9 +24,11 @@ $var2 = 1.3;
 $var3 = "Variable 3";
 
 echo "$var1 + $var2";
+echo "\n";
 echo $var1 + $var2;
+echo "\n";
 echo $var1 + $var3;
-
+echo "\n";
 
 
 echo '<strong> Voici mon premier programme </strong><br/>' . "\n";
@@ -36,6 +38,12 @@ echo 'C\'est  pas mal non ? <br/>';
 <?php
 
 echo date('l F d, Y');
+
+$jour = date('l F d, Y');
+
+$jour = date('d/m/Y', strtotime('2020-04-01'));
+
+
 ?>
 </body>
 </html>
