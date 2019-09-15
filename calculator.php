@@ -28,7 +28,7 @@ $operateurs = '*+-/';
             echo 'type="radio" name="op" value="' . $operateurs[$cpt] . '"/>' . $operateurs[$cpt] . ' <br/>' . "\n";
         }
         ?>
-        <input type="submit" value="Calculez"/>
+        <input type="submit" name="action" value="Calculez"/>
     </p>
 </form>
 
