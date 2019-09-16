@@ -18,8 +18,11 @@ $operateurs = '*+-/';
         <label for="Op1">Op1</label><input id="op1" type="text" name="op1" value=" "/>
         <label for="Op2">Op2</label><input id="op2" type="text" name="op2" value=" "/><br/>
 
-
-        <input type="submit" name="action" value="Calculez_ "/>
+        <input type="submit" name="action" value="+/>
+        <input type="submit" name="action" value="*"/>
+        <input type="submit" name="action" value="-"/>
+        <input type="submit" name="action" value="/"/>
+        <input type="submit" name="action" value="Calculez"/>
     </p>
 </form>
 
